@@ -9,6 +9,10 @@ public class Fournisseur {
         this.nom = nom;
     }
 
+    public Fournisseur(String nom) {
+        this.nom = nom;
+    }
+
     @Override
     public String toString() {
         return "Fournisseur{" +

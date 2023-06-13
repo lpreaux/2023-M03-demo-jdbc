@@ -1,11 +1,10 @@
 package fr.digi.jdbc.entites;
 
-public class Fournisseur {
-    private int ID;
+public class Fournisseur extends BaseEntity {
     private String nom;
 
     public Fournisseur(int ID, String nom) {
-        this.ID = ID;
+        super(ID);
         this.nom = nom;
     }
 
@@ -21,18 +20,9 @@ public class Fournisseur {
                 '}';
     }
 
-    public int getID() {
-        return ID;
-    }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
     public String getNom() {
         return nom;
     }
-
     public void setNom(String nom) {
         this.nom = nom;
     }

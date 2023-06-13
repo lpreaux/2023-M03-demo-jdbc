@@ -7,8 +7,8 @@ import fr.digi.jdbc.entites.Fournisseur;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TestDaoJdbc {
-    public static final Logger LOG = LoggerFactory.getLogger(TestDaoJdbc.class);
+public class TestJdbcFournisseurs {
+    public static final Logger LOG = LoggerFactory.getLogger(TestJdbcFournisseurs.class);
 
     public static void main(String[] args) {
         try (DbConnection dbConnection = DbConnection.createDbConnection()) {
